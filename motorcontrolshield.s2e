@@ -1,0 +1,43 @@
+{	"extensionName": "Motor Controller",
+	"description": "Controleur moteur pour shield avec shift register",
+	"version": "1.0",
+	"author": "Benjamin Balga",
+	"homepage": "",
+	"sort":0,
+	"javascriptURL":"",
+	"firmware":"1.0",
+	"extensionPort":0,
+	"blockSpecs": [ 
+		[
+			"w",
+			"Motor :%d.motor  direction :%d.direction  speed :%n)",
+			"drive",
+			"1",
+			"Forward",
+			"255",
+			{
+				"setup":"__motorcontroller.begin();",
+				"inc":"#include \"motorcontroller.h\"",
+				"def":"MotorController __motorcontroller; \n",
+				"work":"__motorcontroller.drive({0},{1},{2}); \n",
+				"loop":""
+			}
+		]
+	],
+	"menus": {
+		"motor":["1","2","3","4"],
+		"direction":["Forward","Backward"]
+	},
+	"values":{
+		"Forward":0,
+		"Backward":1
+	},
+	"translators":{
+		"fr_FR":{ 
+			"Motor Controller":"Contrôleur moteur",
+			"Motor :%d.motor  direction :%d.direction  speed :%n)":"Moteur :%d.motor direction :%d.direction  vitesse :%n)",
+			"Forward":"Avant",
+			"Backward":"Arrière"
+		}
+	}
+}
