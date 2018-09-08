@@ -7,3 +7,7 @@ Not compatible with Scratch.
 Compatible Arduino shield: [L293D motor control shield](https://www.aliexpress.com/item/Freeshipping-L293D-motor-control-shield-motor-drive-expansion-board-FOR-Arduino-motor-shield/32502816728.html)
 
 ![image](motor_control_shield_example.jpg)
+
+### Credits
+
+Base work from [https://github.com/paulcoiffier/mblock_motor_extension]()
