@@ -2,7 +2,7 @@
 	"description": "Controleur moteur pour shield avec shift register",
 	"version": "1.0",
 	"author": "Benjamin Balga",
-	"homepage": "",
+	"homepage": "https://github.com/GIPdA/mBlock-MotorControlShield",
 	"sort":0,
 	"javascriptURL":"",
 	"firmware":"1.0",
